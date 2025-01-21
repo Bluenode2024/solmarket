@@ -7,7 +7,7 @@ export default function useProducts() {
     queryKey: ["products"],
     queryFn: async (): Promise<IProductProps[]> => {
       const { items } = await pb
-        .collection("ripplemarket")
+        .collection("xchainshop")
         .getList<IProductProps>(1, 100, {
           sort: "-created",
         });

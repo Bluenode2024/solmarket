@@ -6,10 +6,8 @@ export interface IProductProps {
   location: string;
   image: string;
   state: string;
-  fulfillment: string;
-  condition: string;
+  tx: string;
   buyer: string;
   owner: string;
-  issue: string;
-  sequence: number;
+  destination: string;
 }

@@ -44,7 +44,7 @@ export const SellProduct: React.FC = () => {
       owner: account,
       name: "iPhone15",
       description: "Brand new iPhone 15 with 1TB storage and 5G connectivity",
-      price: 200,
+      price: 1,
       location: "Dreamplus",
       state: "Sell",
       image:
@@ -60,7 +60,7 @@ export const SellProduct: React.FC = () => {
         owner: account,
       };
 
-      await pb.collection("ripplemarket").create(formData);
+      await pb.collection("xchainshop").create(formData);
       router.replace("/");
       router.refresh();
     } catch (error: any) {
@@ -70,7 +70,7 @@ export const SellProduct: React.FC = () => {
   };
 
   return (
-    <>
+    <div className="flex flex-col justify-center item-center">
       <h1 className="font-bold text-lg">{title}</h1>
       <Separator />
       <Form {...form}>
@@ -148,7 +148,7 @@ export const SellProduct: React.FC = () => {
               name="price"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Price(USDT)</FormLabel>
+                  <FormLabel>Price(SOL)</FormLabel>
                   <FormControl>
                     <Input disabled={loading} placeholder="Price" {...field} />
                   </FormControl>
@@ -175,6 +175,6 @@ export const SellProduct: React.FC = () => {
           </Button>
         </form>
       </Form>
-    </>
+    </div>
   );
 };
