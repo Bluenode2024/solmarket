@@ -120,9 +120,9 @@ Provides detailed information about a selected product.
   /my-buy           // My Buy page
   /my-sell          // My Sell page
   /products/[id]    // Product details page
-  /sell             // Product listing page
+  /sell             // Product upload page
   layout.tsx        // Layout component for shared layout logic
-  page.tsx          // Homepage
+  page.tsx          // Homepage (Product listing page)
 ```
 
 ### Final Note
