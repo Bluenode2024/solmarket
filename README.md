@@ -77,27 +77,23 @@ Each product has a dedicated page where users can view detailed information abou
 
 ## Pages
 
-### **Homepage (`/`)**
+1. **Homepage (`/`)**
 Displays a grid of all products listed on the marketplace.
 
----
 
-### **My Buy (`/my-buy`)**
+2. **My Buy (`/my-buy`)**
 Lists all items the logged-in user has purchased.
 
----
 
-### **My Sell (`/my-sell`)**
+3. **My Sell (`/my-sell`)**
 Shows all items the user has listed for sale, along with their current statuses.
 
----
 
-### **Sell Page (`/sell`)**
+4. **Sell Page (`/sell`)**
 Allows users to list products by filling out a form with necessary details.
 
----
 
-### **Product Detail Page (`/products/[id]`)**
+5. **Product Detail Page (`/products/[id]`)**
 Provides detailed information about a selected product.
 
 ---
