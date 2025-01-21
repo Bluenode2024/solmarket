@@ -1,8 +1,5 @@
-# Solana Meme & NFT Marketplace
+# Solana Meme & NFT Marketplace - BLUENODE 학회 프로젝트 (2025)
 
-## BLUENODE 학회 프로젝트 (2025)
-
----
 
 ## Overview
 
